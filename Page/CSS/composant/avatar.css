@@ -1,0 +1,17 @@
+ .avatar{
+    border-radius:30%;
+    width : 50px;
+    border-color:red !important;
+   
+   
+    margin-left:50px;
+   float:left;
+   margin-right:20px;
+   margin-top:0;
+ }
+ .avatar-small{
+    border-radius:50%;
+    width : 30px;
+    margin-left:20px;
+    margin-top:10px;
+ }

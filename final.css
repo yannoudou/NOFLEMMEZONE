@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+body{
+    background-color:#F1F1F1;
+    }
+    
+    
+    
+    
+    
+    
+    
+/* css nav-bar debut */
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-inverse .navbar-nav>li a:hover {background-color:#5C93B3;}
+.navbar-inverse .navbar-nav>.active>a{background-color:#E25326;}
+.navbar-inverse .navbar-nav>li>a{color:whitesmoke;}
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color:#5C93B3;
+    color:#FFFFFF;
+}
+ .navbar{position:relative; z-index:2000;}
+.navbar1{padding: 0 2rem; border-radius:0px; margin-bottom: 0px;}
+.icon{margin: 5px 10px;}
+.btn1{line-height: 1.25;border: 0.7px solid grey; opacity:0.7;}
+.navbar-form1{margin: 30px auto;}
+.flag{float:right; margin-right: 5px; margin-top: 40px; clear: both;position:relative; z-index:2000;}
+.contact{float: right; margin-top: 40px;position:relative; z-index:2000;}
+
+ /* fin css nav-bar */
+
+/* debut css slider */
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {width: 100%; height:400px; margin: auto;}
+  .carousel-caption { text-align: left; right: 50%; left: 20%;}
+  .gauche{background:white;border-radius:12%;height:60px;width:60px;margin-top:175px;}
+ .droite{background:white;border-radius:12%;height:60px;width:60px;margin-top:175px;}
+ 
+ /* fin css slider */
+ 
+/* css debut punchline-container */
+
+.punchline-punchline{padding: 5px 0px;}
+
+/* css fin punchline-container */
+
+/* css debut video-container */
+
+.video-container{padding: 15px;}
+
+/* css fin video-container */
+
+/* css debut images-container */
+
+.card-block1, .card-block2, .card-block3 {position: absolute; bottom: 5px; width: 100%; text-align: center; }
+.card1, .card2, .card3 {border: none; border-radius: 15px;}
+
+.image-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+.card-img-top {
+	width: 350px !important;
+	height: 200px !important;
+}
+/* css fin punchline-container */
+
+
+/* css debut footer */
+
+.social-icons{ border-radius:50px; background: blue; padding:12px 15px;}
+.alignement{text-align: center;}
+.container-footer1{background: white;}
+.container-footer2{background: #5C93B3;padding:5px;}
+
+/* css fin footer */
+
+/* css debut padding container */
+
+.top-container{padding-top: 10px; padding-bottom: 5px; }
+.punchline-container{padding-top: 40px; padding-bottom: 30px;}
+.image-conatiner{padding-top: 80px; padding-bottom: 50px;}
+.container-footer1{padding: 20px;}
+.video-container{padding-top: 20px; padding-bottom: 20px;}
+
+/* Link */
+
+.container-footer1 .decoration a:hover{text-decoration: none;}
+.container1 {
+    padding-right: 0;
+    padding-left: 0;
+    height: 400px;}
+#mavideo{
+   
+    margin-top:-200px;
+   
+}
+/*debut modification pour la page des Articles*/
+
+ 
+    
+
+.img1{    width: 350px;
+    height: 215px;}
+    
+    
+  .product{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+ }
+
+ 
+    .product-controls{
+        margin-top:50px;
+        float: right;
+        }
+        .fa{color:#053C5C;}
+        
+         #demo{background-color:white;padding: 10px 20px;}
+         #demo1{background-color:white;padding: 10px 20px;}
+          #demo2{background-color:white;padding: 10px 20px;}
+          .nav-pills>li.active>a{
+            border-radius: 0;
+            padding:0;
+            background: #053C5C;
+          }
+          .btn10{
+            padding-top:10px;
+          padding-bottom:10px;
+          background:black;
+          border:none;
+          border-radius:0;
+          }
+          .btn-danger{background:#E25326;}
+          #h5exple{margin-bottom:0;}
+          .acceuil{
+            padding-top:9px;
+          padding-bottom:9px;
+          margin-top:18px;
+          
+          background:#053C5C;
+          width:100%;
+          }
+
+       #acceuil1{
+        color:white;
+        background-color:#E25326;
+        padding-top:12px;
+        padding-bottom:13px;
+        padding-left:40px;
+        padding-right:20px;
+       }
+
+/*fin modification pour la page des Articles*/
+
+#usr{width:300px;border-radius:0;}
+#email{width:300px;border-radius:0;}
+#pass{width:300px;border-radius:0;}
+#pass1{width:300px;border-radius:0;}
+#date{width:300px;border-radius:0;}
+#pwd{width:300px;border-radius:0;}
+#adresse{width:300px;border-radius:0; height:70px;}

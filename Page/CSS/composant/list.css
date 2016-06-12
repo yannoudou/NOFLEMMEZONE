@@ -1,0 +1,50 @@
+ .position{
+   
+   
+   margin:0 auto;
+ }
+ 
+  #tornade{
+   display:flex;
+    flex-wrap: wrap;
+      justify-content:space-between;
+    
+ }
+ .product{
+    display :flex;
+    justify-content:space-between;
+   flex-wrap: wrap;
+      border: 1px solid grey;
+   
+   background-color:white;
+    border-color:white;
+    align-items:center;
+    padding:10px;
+ }
+ .product:hover {
+   background-color:#B4BFCC;
+   
+   
+ }
+ .product:hover.product-upvote{
+   font-size: 25px;
+ }
+ 
+ 
+ .product-description{
+   flex:1 0 auto;
+  
+  
+ }
+.product-controls {
+  
+   margin-left:160px;
+ }
+   
+ 
+ .product-controls:hover a {
+   opacity:1;
+ }
+   
+ .img1{    width: 250px;
+    height: 195px;}

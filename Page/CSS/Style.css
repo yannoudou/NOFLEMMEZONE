@@ -1,0 +1,17 @@
+ @import url("composant/button.css");
+@import url("composant/slider.css");
+@import url("composant/card.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("composant/slider2.css");
+@import url("composant/list.css");
+body {
+    font-family:"open Sans","Helvetica","sans-serif";
+    background-color:#F1F1F1;
+    
+
+
+        
+}
+h1,h2,h3 {font-family: 'Montserrat', sans-serif;}
+
+
